@@ -1,12 +1,28 @@
+"use client";
 import React from "react";
-import ReactCompareImage from 'react-compare-image';
-
+import {
+  ReactCompareSlider,
+  ReactCompareSliderImage,
+} from "react-compare-slider";
+import Unit1 from "@/public/images/dakt-1.png";
+import Unit2 from "@/public/images/dakt-2.png";
 import Image from "next/image";
-import Dakt1 from "@/public/images/dakt-1.jpg";
-import Dakt2 from "@/public/images/dakt-2.jpg";
 
 export default function CompareTwoImage() {
-  return <div className="section-compare-two-image">
-    <ReactCompareImage hover={true} leftImage={`${Dakt1}`} rightImage={`${Dakt2}`} />
-  </div>
+  return (
+    <div className="section-compare-two-images">
+      <ReactCompareSlider
+        itemOne={
+          <div className="image-for-compare">
+            <Image src={Unit1} alt={""} />
+          </div>
+        }
+        itemTwo={
+          <div className="image-for-compare">
+            <Image src={Unit2} alt={""} />
+          </div>
+        }
+      />
+    </div>
+  );
 }

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import FeatImage01 from "@/public/images/system-3.jpg";
+import FeatImage01 from "@/public/images/mini-split2.jpg";
 import FeatImage02 from "@/public/images/repair-1.jpg";
 import FeatImage03 from "@/public/images/repair-2.jpg";
 import { FaRegQuestionCircle } from "react-icons/fa";

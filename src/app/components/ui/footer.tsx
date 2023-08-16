@@ -8,22 +8,22 @@ const Footer = () => {
       <div className="section-footer__wrapper">
         <div className="section-footer__items">
           <div className="section-footer__item">
-            <h3 className="h2 text-2xl text-white">HVAC Company</h3>
-            <p>
+            <h3 className="h2 text-3xl text-white">HVAC Company</h3>
+            <p className="text-white">
               Keeping you comfortable all year round with reliable HVAC
               solutions.
             </p>
           </div>
 
           <div className="section-footer__item">
-            <h3 className="h2 text-2xl text-yellow-400">Contact Us</h3>
-            <p>123 Main St., Anytown, USA</p>
-            <p>Email: info@abchvac.com</p>
-            <p>Phone: (123) 456-7890</p>
+            <h3 className="h2 text-3xl text-white">Contact Us</h3>
+            <p className="text-white">123 Main St., Anytown, USA</p>
+            <p className="text-white">Email: info@abchvac.com</p>
+            <p className="text-white">Phone: (123) 456-7890</p>
           </div>
 
           <div className="section-footer__item">
-            <h3 className="h2 text-2xl text-red-400">Follow Us</h3>
+            <h3 className="h2 text-3xl text-white">Follow Us</h3>
             <div className="links">
               <a href="https://www.facebook.com/abchvac">
                 <FaFacebookSquare />

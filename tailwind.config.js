@@ -3,7 +3,7 @@ module.exports = {
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {
@@ -39,6 +39,7 @@ module.exports = {
         yellow: {
           400: "#faa727",
         },
+        white: "#fff",
       },
       spacing: {
         "9/16": "56.25%",

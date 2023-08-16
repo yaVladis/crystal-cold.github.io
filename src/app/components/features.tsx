@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { FaWrench } from "react-icons/fa";
 
-import MiniSplit2 from "@/public/images/mini-split2.jpg";
-import System1 from "@/public/images/system-1.jpg";
+import MiniSplit2 from "@/public/images/system-1.jpg";
+import System1 from "@/public/images/system-3.jpg";
 import System2 from "@/public/images/system-2.jpg";
 
 export default function OurServices() {
@@ -57,7 +57,7 @@ export default function OurServices() {
               // data-aos="fade-up"
               data-aos-anchor="[data-aos-id-blocks]"
             >
-              <p className="text-2xl text-gray-700 text-center font-architects-daughter">Replacement</p>
+              <p className="text-2xl text-gray-700 text-center font-architects-daughter">Maintenance</p>
               <div className="feature__item__line"></div>
               <Image
                 src={MiniSplit2}
@@ -66,11 +66,11 @@ export default function OurServices() {
                 alt={"MiniSplit2"}
               />
               <span>
-                Replacement - refers to the process of removing an existing
-                heating, ventilation, or air conditioning system and installing
-                a new one in its place.
+              Maintenance - is the regular upkeep and inspection of heating, ventilation, and air conditioning systems to ensure that they are operating properly and efficiently.
               </span>
             </div>
+            {/* item */}
+           
             <div
               className="relative flex flex-col items-center feature__item"
               // data-aos="fade-up"

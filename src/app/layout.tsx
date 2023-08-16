@@ -12,7 +12,8 @@ const inter = Inter({
 
 const architects_daughter = Architects_Daughter({
   subsets: ['latin'],
-  variable: '--font-architects-daughter',
+  variable: '--',
+  // variable: '--font-architects-daughter',
   weight: '400',
   display: 'swap'
 })
