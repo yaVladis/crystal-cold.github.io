@@ -23,7 +23,7 @@ export default function Carousel(props: any) {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        {props.reviewsBlocks.map((review, index) => {
+        {props.reviewsBlocks.map((review: any, index: any) => {
           return <SwiperSlide key={index}>{review}</SwiperSlide>;
         })}
       </Swiper>
