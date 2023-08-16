@@ -21,11 +21,15 @@ export default function OurServices() {
               <FaWrench />
             </div>
             <div>
-              <h4 className="h4 mb-2 text-yellow-400 text-center">
-                <span className="text-red-400">Heating system</span> &{" "}
-                <span className="text-blue-400">Air Conditioning</span>
+              <h4 className="h4 mb-2 text-blue-400 text-center">
+                <span className="text-blue-400">
+                  Air Conditioning Repair, Air Conditioning Replacement,
+                  Mini-Split Service and Installation, Heating Systems Repair,
+                  Heating Systems Replacement, Maintenance, Air Quality,
+                  Commercial HVAC Services.
+                </span>
               </h4>
-              <h3 className="text-lg text-gray-700">
+              <h3 className="text-lg text-blue-400">
                 Commercial and Residential
               </h3>
             </div>
@@ -42,13 +46,19 @@ export default function OurServices() {
               // data-aos="fade-up"
               data-aos-anchor="[data-aos-id-blocks]"
             >
-              <p className="text-2xl text-gray-700 text-center font-architects-daughter">Installation</p>
+              <p className="text-2xl text-blue-400 text-center font-architects-daughter">
+                Installation
+              </p>
               <div className="feature__item__line"></div>
               <Image src={System1} width={300} height={300} alt={"System1"} />
               <span>
-                Installation - refers to the process of setting up and
-                integrating the various components and equipment of a heating,
-                ventilation, or air conditioning system in a building or space.
+                Installation - Our skilled technicians expertly install HVAC
+                (Heating, Ventilation, and Air Conditioning) systems, ensuring
+                optimal comfort in your space. We meticulously set up heating
+                and cooling units, ductwork, and ventilation to provide
+                efficient temperature control and air circulation. Trust us for
+                a seamless installation that prioritizes your comfort and indoor
+                air quality.
               </span>
             </div>
             {/* item */}
@@ -57,7 +67,9 @@ export default function OurServices() {
               // data-aos="fade-up"
               data-aos-anchor="[data-aos-id-blocks]"
             >
-              <p className="text-2xl text-gray-700 text-center font-architects-daughter">Maintenance</p>
+              <p className="text-2xl text-gray-700 text-center font-architects-daughter">
+                Maintenance
+              </p>
               <div className="feature__item__line"></div>
               <Image
                 src={MiniSplit2}
@@ -66,23 +78,34 @@ export default function OurServices() {
                 alt={"MiniSplit2"}
               />
               <span>
-              Maintenance - is the regular upkeep and inspection of heating, ventilation, and air conditioning systems to ensure that they are operating properly and efficiently.
+                Maintenance - HVAC maintenance involves regular upkeep of
+                heating, ventilation, and air conditioning systems to ensure
+                optimal performance and efficiency. This includes tasks such as
+                cleaning filters, inspecting components, lubricating moving
+                parts, and addressing minor repairs. Proper maintenance helps
+                extend system lifespan, improve air quality, and reduce energy
+                consumption.
               </span>
             </div>
             {/* item */}
-           
+
             <div
               className="relative flex flex-col items-center feature__item"
               // data-aos="fade-up"
               data-aos-anchor="[data-aos-id-blocks]"
             >
-              <p className="text-2xl text-gray-700 text-center font-architects-daughter">Repair</p>
+              <p className="text-2xl text-gray-700 text-center font-architects-daughter">
+                Repair
+              </p>
               <div className="feature__item__line"></div>
               <Image src={System2} width={300} height={300} alt={"System2"} />
               <span>
-                Repair - refers to the process of fixing or restoring a
-                malfunctioning or damaged heating, ventilation, or air
-                conditioning system.
+                Repair - Our expert technicians provide comprehensive HVAC
+                repair services. We diagnose and address issues with heating,
+                ventilation, and air conditioning systems swiftly and
+                effectively. From fixing faulty components to restoring optimal
+                performance, our team ensures your comfort is restored. Trust us
+                for efficient, reliable HVAC repairs.
               </span>
             </div>
           </div>

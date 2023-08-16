@@ -16,10 +16,10 @@ export default function Hero() {
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              Heating, Ventilation, Air Conditioning and Refrigerator
+              Heating, Ventilation, Air Conditioning and Refrigeration
             </p>
             <h3
-              className="text-3xl text-blue-400 mb-10 font-architects-daughter"
+              className="text-3xl text-white mb-10 font-architects-daughter"
               data-aos="fade-up"
               data-aos-delay="150"
             >
@@ -28,7 +28,7 @@ export default function Hero() {
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
-                  className="btn text-white bg-yellow-400 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 opacity-90"
+                  className="btn text-white bg-blue-400 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 opacity-90"
                   href="tel:+1-999-999-9999"
                 >
                   Call us
@@ -36,7 +36,7 @@ export default function Hero() {
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a
-                  className="btn text-white bg-red-400 hover:bg-purple-700 w-full sm:w-auto sm:ml-4 opacity-90"
+                  className="btn text-white bg-blue-400 hover:bg-purple-700 w-full sm:w-auto sm:ml-4 opacity-90"
                   href="#section-contact-us"
                 >
                   Send message

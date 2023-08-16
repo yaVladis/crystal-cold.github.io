@@ -47,8 +47,7 @@ export default function Zigzag() {
                   <div className="h3 font-architects-daughter text-blue-400 mb-2">
                     Expertise and Experience
                   </div>
-                  {/* <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
-                  <ul className="text-lg text-gray-400 -mb-2">
+                  <ul className="text-lg text-gray-500 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
@@ -113,8 +112,7 @@ export default function Zigzag() {
                   <div className="font-architects-daughter h3 text-yellow-600 mb-2">
                     Exceptional Service Quality
                   </div>
-                  {/* <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
-                  <ul className="text-lg text-gray-400 -mb-2">
+                  <ul className="text-lg text-gray-500 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
@@ -176,8 +174,7 @@ export default function Zigzag() {
                   <div className="font-architects-daughter h3 text-red-600 mb-2">
                     Comprehensive Solutions
                   </div>
-                  {/* <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
-                  <ul className="text-lg text-gray-400 -mb-2">
+                  <ul className="text-lg text-gray-500 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
