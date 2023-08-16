@@ -16,8 +16,6 @@ export default function Hero() {
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              {/* Refrigeration <span className="text-yellow-400">and</span>{" "}
-              <span className="text-blue-400">air conditioning</span> */}
               Heating, Ventilation, Air Conditioning and Refrigerator
             </p>
             <h3
@@ -31,11 +29,9 @@ export default function Hero() {
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
                   className="btn text-white bg-yellow-400 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 opacity-90"
-                  href="#0"
+                  href="tel:+1-999-999-9999"
                 >
-                  <a href="tel:+1-999-999-9999">
-                    Call us
-                  </a>
+                  Call us
                 </a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">

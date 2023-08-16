@@ -41,7 +41,7 @@
 
 .section-hero::before {
   content: "";
-  background-image: url("../../../public/images/car.jpg");
+  background-image: url("../../../public/images/car.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -294,7 +294,7 @@ p {
 
 .section-companies::before {
   content: "";
-  background-image: url("../../../public/images/car.jpg");
+  background-image: url("../../../public/images/car.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
