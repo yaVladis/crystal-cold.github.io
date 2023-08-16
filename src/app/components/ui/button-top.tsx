@@ -6,7 +6,9 @@ export default function ButtonTop() {
 
   useEffect(() => {
     const handleScrollButtonVisibility = () => {
-      setShowButton(window.scrollY > 300);
+      if (typeof window !== "undefined") {
+        setShowButton(window.scrollY > 300);
+      }
     };
 
     const handleScroll = () => {

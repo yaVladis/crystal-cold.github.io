@@ -9,9 +9,6 @@ import Brand4 from "@/public/images/brand-4.png";
 import Brand5 from "@/public/images/brand-5.png";
 
 export default function Companies() {
-  const isMobile = window.innerWidth <= 269;
-  const dimensions = isMobile ? 125 : 300; 
-  
   return (
     <section className="section-companies">
       <div className=" py-24 sm:py-32 border-t border-gray-100">
