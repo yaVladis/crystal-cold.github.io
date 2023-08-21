@@ -29,7 +29,7 @@ export default function Hero() {
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
                   className="btn text-white bg-blue-400 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 opacity-90"
-                  href="tel:+1-999-999-9999"
+                  href="tel:+1-818-929-0448"
                 >
                   Call us
                 </a>

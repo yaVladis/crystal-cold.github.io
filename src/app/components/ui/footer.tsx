@@ -17,21 +17,21 @@ const Footer = () => {
 
           <div className="section-footer__item">
             <h3 className="h2 text-3xl text-white">Contact Us</h3>
-            <p className="text-white">123 Main St., Anytown, USA</p>
+            <p className="text-white">Home, 6842 Ranchito Ave, Van Nuys, CA 91405, USA</p>
             <p className="text-white">Email: info@abchvac.com</p>
-            <p className="text-white">Phone: (123) 456-7890</p>
+            <p className="text-white">Phone: +1-818-929-0448</p>
           </div>
 
           <div className="section-footer__item">
             <h3 className="h2 text-3xl text-white">Follow Us</h3>
             <div className="links">
-              <a href="https://www.facebook.com/abchvac">
+              <a href="https://www.facebook.com/crystalcoldhvac">
                 <FaFacebookSquare />
               </a>
-              <a href="https://www.twitter.com/abchvac">
+              <a href="https://www.twitter.com/crystalcoldhvac">
                 <FaTwitter />
               </a>
-              <a href="https://www.instagram.com/abchvac">
+              <a href="https://www.instagram.com/crystalcoldhvac">
                 <FaInstagram />
               </a>
             </div>

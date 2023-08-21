@@ -32,9 +32,9 @@ export default function Header() {
           <nav className="md:grow">
             <ul className="flex grow justify-end flex-wrap text-blue-400 items-center desktop-menu">
               <li>
-                <a className="flex align-center" href="tel:+1-999-999-9999">
+                <a className="flex align-center" href="tel:+1-818-929-0448">
                   <FaPhoneAlt />
-                  <span className="pl-3 hidden md:flex">+1-999-999-9999</span>
+                  <span className="pl-3 hidden md:flex">+1-818-929-0448</span>
                 </a>
               </li>
             </ul>
