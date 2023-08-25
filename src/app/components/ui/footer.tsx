@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="section-footer__item">
             <h3 className="h2 text-3xl text-white">Contact Us</h3>
             <p className="text-white">Home, 6842 Ranchito Ave, Van Nuys, CA 91405, USA</p>
-            <p className="text-white">Email: info@abchvac.com</p>
+            <p className="text-white">Email: Crystalcoldinc@gmail.com</p>
             <p className="text-white">Phone: +1-818-929-0448</p>
           </div>
 

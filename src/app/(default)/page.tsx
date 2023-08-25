@@ -10,18 +10,20 @@ import ContactUs from "@/src/app/components/contact-us";
 import Zigzag from "@/src/app/components/zigzag";
 import Testimonials from "@/src/app/components/testimonials";
 import ButtonTop from "@/src/app/components/ui/button-top";
-import Companies from "../components/ui/work-with-companies";
+import Companies from "@/src/app/components/ui/work-with-companies";
+// import SEO from "../components/seo";
 
 export default function Home() {
   return (
     <>
+      {/* <SEO title={metadata.title} description={metadata.description} /> */}
       <Hero />
       {/* <OurServices /> */}
       <OurServices2 />
       <Zigzag />
       <Testimonials />
       <ContactUs />
-      <Companies/>
+      <Companies />
       <ButtonTop />
     </>
   );
