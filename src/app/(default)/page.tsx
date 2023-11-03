@@ -11,12 +11,12 @@ import Zigzag from "@/src/app/components/zigzag";
 import Testimonials from "@/src/app/components/testimonials";
 import ButtonTop from "@/src/app/components/ui/button-top";
 import Companies from "@/src/app/components/ui/work-with-companies";
-// import SEO from "../components/seo";
+import SEO from "@/src/app/components/seo";
 
 export default function Home() {
   return (
     <>
-      {/* <SEO title={metadata.title} description={metadata.description} /> */}
+      <SEO title={metadata.title} description={metadata.description} />
       <Hero />
       {/* <OurServices /> */}
       <OurServices2 />

@@ -1,6 +1,5 @@
 "use client";
-import Image from "next/image";
-import { reviews } from "./information.js";
+import { reviews } from "./reviews.js";
 import { BsFillPersonCheckFill } from "react-icons/bs";
 import Carousel from "./carousel";
 
